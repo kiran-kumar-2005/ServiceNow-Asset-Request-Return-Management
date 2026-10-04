@@ -1,0 +1,62 @@
+# ServiceNow Asset Request & Return Management
+
+## Project Overview
+A ServiceNow application developed to manage company assets, asset requests, assignments, status tracking, and returns.
+
+## Objectives
+- Manage company assets
+- Track asset status
+- Manage employee asset requests
+- Track asset assignments and returns
+- Automate asset record updates
+- Monitor assets using reports and dashboards
+
+## Technologies
+- ServiceNow Zurich
+- App Engine Studio
+- Flow Designer
+- Record Producer
+- Platform Analytics
+
+## Key Features
+
+### Asset Management
+Created a custom Asset table with:
+- Asset Name
+- Asset Tag
+- Asset Type
+- Serial Number
+- Asset Status
+- Assigned To
+- Assigned Date
+- Return Date
+- Condition
+- Notes
+
+### Asset Request
+Created an Asset Request Record Producer for requesting company assets.
+
+### Automation
+Created a Flow Designer automation that triggers when an Asset record is created and automatically updates the Asset Status.
+
+### Reporting
+Created an Asset Request Status Overview report to monitor assets by status.
+
+### Dashboard
+Created an Asset Request Management Dashboard using Platform Analytics.
+
+## Workflow
+
+Asset Record Created  
+↓  
+Automation Triggered  
+↓  
+Asset Status Updated  
+↓  
+Asset Assignment / Return Tracking  
+↓  
+Status Monitoring through Report & Dashboard
+
+## Author
+**Kiran Kumar Javaji**  
+B.Tech – Computer Science & Engineering (AI & ML)
